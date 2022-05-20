@@ -219,3 +219,71 @@ nav.menu {
     line-height: 17px;
 }
 
+.characteristics {
+    margin: 150px 0px;
+}
+
+.characteristics_inner {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.characteristic_img{
+    max-width: 570px;
+    max-height: 401px;
+}
+
+.characteristics_column {
+    max-width: 570px;
+    margin-right: 60px;
+}
+
+.characteristics_header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.characteristics_table {
+    height: 730px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.characteristic_header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+    color: #FFFFFF;
+    background: #131313;
+}
+
+.characteristic_line {
+    display: flex;
+}
+
+.characteristic_line + .characteristic_line{
+    margin-top: 5px;
+}
+
+.characteristic_name {
+    min-width: 251px;
+    margin-right: 34px;
+}
+
+.characteristic_name,
+.characteristic_val{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
