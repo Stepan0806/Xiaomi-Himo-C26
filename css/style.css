@@ -418,3 +418,42 @@ nav.menu {
     background-size: cover;
     transition: all 0.5s;
 }
+
+footer {
+    height: 100px;
+    background-color: #131313;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+
+.footer_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 0;
+}
+
+.privacy-policy {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.instagram-link{
+    margin-right: 28px;
+}
+
+.contact-row {
+    display: flex;
+    align-items: center;
+}
+
+.contact-row img {
+    margin-right: 10px;
+}
+
+.contact-row + .contact-row {
+    margin-top: 10px;
+}
