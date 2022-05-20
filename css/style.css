@@ -184,3 +184,38 @@ nav.menu {
     line-height: 15px;
     text-transform: lowercase;
 }
+
+.description_inner {
+    max-width: 1080px;
+    display: flex;
+}
+
+.description_img {
+    max-width: 570px;
+    margin-right: 60px;
+}
+
+.description_list {
+    max-width: 450px;
+    max-height: 1053px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.description_header {
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.description_paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
