@@ -287,3 +287,19 @@ nav.menu {
     font-size: 14px;
     line-height: 17px;
 }
+
+.slider-section .slider {
+    max-width: 1150px;
+    margin-left: 50px;
+}
+
+.slider-section .slick-dots {
+    top: 0;
+    left: -50px;
+    right: none;
+
+}
+
+.slider-section {
+    margin-bottom: 50px;
+}
