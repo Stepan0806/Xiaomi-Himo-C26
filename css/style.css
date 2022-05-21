@@ -2,6 +2,10 @@
     box-sizing:border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -109,6 +113,7 @@ nav.menu {
     text-transform: uppercase;
     color: #FFFFFF;
     transition: all 0.5s;
+    cursor: pointer;
 }
 
 .button:hover {
@@ -403,6 +408,7 @@ nav.menu {
 
 .order .button {
     margin-top: 50px;
+    border: none;
 }
 
 .bike-img {
